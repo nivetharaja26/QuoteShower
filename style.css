@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Permanent+Marker&display=swap');
+body{
+    background-color: aqua;
+
+}
+#quote-box{
+   
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    font-family: 'Permanent Marker', cursive;
+    font-size:50px;
+}
+
+.source{
+    font-family: 'Kalam', cursive;
+    font-size:30px;
+    align-self: flex-end;
+}
+
+#nextQuote{
+    font-family:'Kalam', cursive;
+    font-size: 25px;
+
+    background-color: black;
+    color: aliceblue;
+
+    border-radius: 5px;
+
+    padding: 15px;
+  
+}
+.quoteButton
+{
+    display:flex;
+   
+    justify-content: center;
+}
+
